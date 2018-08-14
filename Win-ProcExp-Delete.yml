@@ -3,7 +3,7 @@
   hosts:
     all
   tasks:
-    - name: install procexp
+    - name: uninstall putty
       win_chocolatey: 
-        name: putty
+        name: putty.install
         state: absent
