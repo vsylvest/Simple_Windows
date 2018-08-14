@@ -1,7 +1,7 @@
 ---
 - name:  Basic Windows Playbook
   hosts:
-    all
+    windows
   tasks:
     - name: install putty
       win_chocolatey: 
